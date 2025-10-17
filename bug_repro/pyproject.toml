@@ -4,5 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dependency>=0.1.0"
+]
 
+[tool.uv.sources]
+dependency = { git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git", subdirectory = "dependency" }
