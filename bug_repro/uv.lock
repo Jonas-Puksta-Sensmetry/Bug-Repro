@@ -11,9 +11,9 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "dependency", git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git?subdirectory=dependency" }]
+requires-dist = [{ name = "dependency", git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git?subdirectory=dependency&branch=dependency-update" }]
 
 [[package]]
 name = "dependency"
 version = "0.1.0"
-source = { git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git?subdirectory=dependency#e5278c48afd218b8e02cfa5f6223ed08ecc00510" }
+source = { git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git?subdirectory=dependency&branch=dependency-update#ec9c37fd21ee39449a56b11909de7969d7d277b6" }

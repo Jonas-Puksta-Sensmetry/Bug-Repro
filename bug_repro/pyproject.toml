@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-dependency = { git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git", subdirectory = "dependency" }
+dependency = { git = "https://github.com/Jonas-Puksta-Sensmetry/Bug-Repro.git", subdirectory = "dependency", branch = "dependency-update" }
